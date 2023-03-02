@@ -2,9 +2,10 @@
 
  **This uses the openAPI gpt-3 api.**
 
-**Usage : make an api call to the endpoint "/translate" and follow the format below:**
+**Usage : make an api call to the endpoint "https://jbotrex.pythonanywhere.com/translate" and follow the format below:**
 
 **what is needed from you are:**
+
 + the data to be translated and 
 + the language.
 
