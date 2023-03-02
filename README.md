@@ -10,13 +10,14 @@
 
  
    
-     async function translate(){
+ 
+    async function translate(){
     let data= data
     let language=language
     let response
     let translated
     response=await fetch("/translate",{method:"POST",headers: { "Content-type": "application/json" },
-     body: JSON.stringify({"data":data,"language":language})})
+    body: JSON.stringify({"data":data,"language":language})})
     translated=await response.text()
     console.log(translated)
-}
+    }
