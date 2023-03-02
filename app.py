@@ -14,8 +14,8 @@ def translate():
     response = openai.Completion.create(
         model="text-davinci-003",
         prompt=f"Translate this into {language}\n{what_to_translate}",
-        temperature=0.9,
-        max_tokens=150,
+        temperature=0.4,
+        max_tokens=120,
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0.6,
